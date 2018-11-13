@@ -1,3 +1,8 @@
+body {
+  width: 100%;
+  margin: 0;
+}
+
 .jumbotron {
   border-radius: 0;
   height: 600px;
@@ -59,6 +64,11 @@ img {
   /*centres links under images*/
 }
 
-footer.container {
+footer {
+  margin: 0 auto;
+}
 
+p {
+  text-align: center;
+  padding: 50px 0;
 }
