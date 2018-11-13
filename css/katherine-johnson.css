@@ -1,0 +1,151 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: auto;
+  /*Remove margin/padding from all elements */
+  margin: 0;
+  margin: 0;
+}
+
+#wrapper {
+  width: 100%;
+  background-color: #22031f;
+  font-family: montserrat, sans-serif;
+  font-weight: 275;
+  font-style: normal;
+  font-stretch: semi-expanded;
+  margin: 0 auto;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #22031f;
+}
+
+header {
+  width: 100%;
+  height: 400px;
+  background-color: #22031f;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: lighter;
+  margin: 0;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 48px;
+}
+
+.hero-image {
+  width: 180px;
+  height: 180px;
+  border: 2px solid #daa588;
+  border-radius: 50%;
+  background-image: url(images/Katherine-Johnson-at-NASA-in-1966.jpg);
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+img {
+  width: 110%;
+  height: auto;
+}
+
+.sidebar {
+  background-color: #fff;
+  position: relative;
+  text-align: center;
+  float: left;
+  width: 100%;
+  margin: 0;
+}
+
+blockquote {
+  background-color: #87b38d;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+  padding: 20px 0px;
+  margin: 0;
+  vertical-align: bottom;
+}
+
+.sidebar ul li {
+  padding: 0px 20px;
+  display: inline;
+}
+
+.sidebar a {
+  color: #22031f;
+}
+
+.sidebar a:hover {
+  color: #87b38d;
+}
+
+a {
+  text-decoration: none;
+  color: #f2b7c6;
+}
+
+a:hover {
+  color: #87b38d;
+}
+
+.key-facts {
+  background-color: #daa588;
+  width: 100%;
+  padding: 25px 0px;
+  line-height: 22px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  text-align: center;
+  z-index: 1
+}
+
+.key-facts h2 {
+  text-align: center;
+  z-index: 1
+}
+
+ul {
+  list-style: none;
+}
+
+.long-bio {
+  background-color: #f2b7c6;
+  padding: 10px 0px 25px 0px;
+  width: 100%;
+  line-height: 22px;
+  margin: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.long-bio p {
+  padding: 0px 40px 0px 40px;
+  text-align: justify;
+  z-index: 2
+}
+
+.long-bio h2 {
+  text-align: center;
+  z-index: 2;
+}
+
+.bio-headers {
+  text-align: center;
+}
+
+footer {
+  padding: 10px 0px;
+  background-color: #22031f;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+}

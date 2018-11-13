@@ -1,0 +1,119 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.jumbotron {
+  height: 600px;
+  background-image: url(../images/grace-hopper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  border-radius: 0
+  width: 100%;
+  z-index: 5;
+}
+
+#navbar-nav {
+  position: fixed;
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  font-weight: lighter;
+  font-size: 100px;
+  background-color: rgba(132, 0, 50, 0.6);
+  width: 100%;
+  float: left;
+  margin: 0;
+  padding: 217px 0;
+}
+
+.subheader {
+  color: white;
+  font-size: 28px;
+}
+
+.container {
+  align-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#key-facts {
+  font-size: 22px;
+  z-index: 5;
+}
+
+ h2 {
+  font-size: 42px;
+  text-align: center;
+  float: right;
+}
+
+small {
+  display: block;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.navbar {
+  background-color: rgba(51, 51, 51, 0.7);
+}
+
+.bio-header {
+  padding: 30px 0 60px 0;
+}
+
+
+.list {
+  padding: 30px;
+}
+
+ul li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.blockquote {
+  font-size: 52px;
+  vertical-align: middle;
+  padding: 30px;
+}
+
+.blockquote-1 {
+  font-size: 42px;
+  margin-top: 80px;
+}
+
+#blockquote-bio {
+  background-color: #D1BEB0;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#blockquote-bio {
+  font-size: 40px;
+  padding: 50px 0;
+}
+
+#long-bio {
+  padding: 50px 0;
+  margin-top: 20px;
+}
+
+footer {
+  width: 100%;
+}
+
+#sources {
+  padding: 30px;
+}
+
+#further-reading {
+  padding: 30px;
+  color: #e5dada;
+  background-color: #002642;
+}

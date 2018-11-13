@@ -1,0 +1,14 @@
+.jumbotron {
+  border-radius: 0;
+  height: 600px;
+}
+
+img {
+  border-radius: 100%;
+  margin: 30px 15px;
+}
+
+.name-links {
+  margin: 0px auto;
+  text-align: center;
+}
