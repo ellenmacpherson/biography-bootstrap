@@ -9,6 +9,7 @@ body {
   background-image: url(../images/code.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 0;
 }
 
 .jumbotron .row:before {
@@ -51,14 +52,22 @@ small {
   margin: 0 auto;
 }
 
+.hero-images {
+  background-color: #FFA5A5;
+  margin: 0;
+}
+
 img {
   border-radius: 100%;
   margin: 50px 15px 30px 15px;
   border: 3px solid #333;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+
 }
 
 img:hover {
-  background-color:
+  filter: grayscale(0%);
 }
 
 .name-links {
@@ -72,6 +81,7 @@ a.name-links {
   text-decoration: none;
   font-size: 18px;
   color: #333;
+  margin-bottom: 20px;
 }
 
 a.name-links:hover {
@@ -82,7 +92,6 @@ footer {
   margin: 0 auto;
   background-color: #333;
   color: white;
-  margin-top: 50px;
 }
 
 p {
