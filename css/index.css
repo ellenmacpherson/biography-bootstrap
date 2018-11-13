@@ -41,38 +41,42 @@ body {
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Anonymous Pro', monospace;
   padding-top: 140px;
   margin: 0 auto;
   text-align: center;
-  font-size: 98px;
+  font-size: 120px;
   font-weight: lighter;
   color: white;
   z-index: 10;
 }
 
 small {
+  font-family: 'Montserrat', sans-serif;
   padding-top: 20px;
   display: block;
-  font-size: 24px;
+  font-size: 30px;
   color: white;
   font-weight: 100;
   margin: 0 auto;
 }
 
+
 .hero-images {
   border-top: 3px solid #333;
   background-color: #FFDD4A;
-  margin: 0;
+  padding: 50px 0;
+  margin: 0 auto;
 }
 
 img {
   border-radius: 100%;
-  margin: 50px 15px 30px 15px;
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
   border: 3px solid #333;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
-
 }
 
 img:hover {
@@ -80,7 +84,7 @@ img:hover {
 }
 
 .name-links {
-  margin: 0px auto;
+  margin: 10px auto;
   text-align: center;
   display: block;
   /*centres links under images*/
