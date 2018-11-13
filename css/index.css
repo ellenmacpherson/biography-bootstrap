@@ -3,6 +3,14 @@ body {
   margin: 0;
 }
 
+.navbar {
+  border-bottom: 3px solid #FFDD4A;
+}
+
+.nav-item {
+  padding: 20px 0;
+}
+
 .jumbotron {
   border-radius: 0;
   height: 600px;
@@ -53,7 +61,8 @@ small {
 }
 
 .hero-images {
-  background-color: #FFA5A5;
+  border-top: 3px solid #333;
+  background-color: #FFDD4A;
   margin: 0;
 }
 
