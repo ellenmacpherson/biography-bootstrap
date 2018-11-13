@@ -19,21 +19,20 @@
     z-index: 1;
   }
 
-
 .navbar {
   position: fixed;
   opacity: 0.7;
   background-color: #333;
-  color: white
+  color: white;
 }
 
 h1 {
   font-family: 'Montserrat', sans-serif;
-  padding-top: 100px;
+  padding-top: 140px;
   margin: 0 auto;
   text-align: center;
   font-size: 98px;
-  font-weight: 100;
+  font-weight: lighter;
   color: white;
   z-index: 10;
 }
@@ -41,14 +40,16 @@ h1 {
 small {
   padding-top: 20px;
   display: block;
-  font-size: 42px;
+  font-size: 24px;
   color: white;
-  font-weight: lighter;
+  font-weight: 100;
+  margin: 0 auto;
 }
 
 img {
   border-radius: 100%;
   margin: 30px 15px;
+  border: 3px solid #333;
 }
 
 .name-links {
@@ -56,4 +57,8 @@ img {
   text-align: center;
   display: block;
   /*centres links under images*/
+}
+
+footer.container {
+
 }
