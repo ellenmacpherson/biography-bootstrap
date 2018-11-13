@@ -11,4 +11,5 @@ img {
 .name-links {
   margin: 0px auto;
   text-align: center;
+  display: block; /*centres links under images*/
 }
