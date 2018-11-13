@@ -53,8 +53,12 @@ small {
 
 img {
   border-radius: 100%;
-  margin: 30px 15px;
+  margin: 50px 15px 30px 15px;
   border: 3px solid #333;
+}
+
+img:hover {
+  background-color:
 }
 
 .name-links {
@@ -64,8 +68,21 @@ img {
   /*centres links under images*/
 }
 
+a.name-links {
+  text-decoration: none;
+  font-size: 18px;
+  color: #333;
+}
+
+a.name-links:hover {
+  color: #EC368D;
+}
+
 footer {
   margin: 0 auto;
+  background-color: #333;
+  color: white;
+  margin-top: 50px;
 }
 
 p {
