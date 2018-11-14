@@ -1,0 +1,51 @@
+.navbar {
+  border-bottom: 3px solid #8C8871;
+  position: fixed;
+  opacity: 0.7;
+  background-color: #333;
+  color: white;
+}
+
+.nav-item {
+  padding: 20px 0;
+}
+
+.jumbotron .row:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: "";
+    opacity: .6;
+    background: #000;
+    max-height: 600px;
+    z-index: 1;
+  }
+
+.jumbotron {
+  background-image: url(../images/katherine-hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  margin: 120px auto;
+  color: white;
+  z-index: 10;
+  font-size: 100px;
+  text-align: center;
+}
+
+small {
+  display: block;
+  font-size: 42px;
+}
+
+#key-facts ul li {
+  list-style: none;
+}

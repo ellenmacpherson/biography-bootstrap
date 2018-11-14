@@ -5,41 +5,51 @@
 
 <head>
   <title>Katherine Johnson</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link href="css/katherine-johnson.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link href="css/katherine-bootstrap.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 
 <body>
-  <div id="wrapper">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Women Who Code</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="ada-lovelace.html">Ada Lovelace</a>
+              <a class="nav-item nav-link" href="katherine-johnson.html">Katherine Johnson</a>
+              <a class="nav-item nav-link disabled" href="grace-hopper.html">Grace Hopper</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    </div>
+
+
     <header class="jumbotron">
-      <section class="hero-image">
+      <div class="row">
 
-        <img src="images/Katherine-Johnson-at-NASA-in-1966.jpg" alt="Image of Katherine Johnson at NASA in 1966" />
-        <h1>Katherine Johnson</h1>
+      <h1>Katherine Johnson<small>Physicist, Mathematician</small></h1>
 
-      </section>
-
-
-
-      <nav class="sidebar">
-        <ul>
-          <li> <a href="index.html"><a>Home</a></li>
-          <li> <a href="ada-lovelace.html"><a>Ada Lovelace</a></li>
-          <li><a href="grace-hopper.html"><a>Grace Hopper</a></li>
-          <li><a href="katherine-johnson.html"><a>Katherine Johnson</a></li>
-        </ul>
-        </section>
-
-        <blockquote>"Girls are capable of doing everything men are capable of doing. Sometimes they have more imagination than men."</blockquote>
+    </div>
 
     </header>
 
+
+    <blockquote>"Girls are capable of doing everything men are capable of doing. Sometimes they have more imagination than men."</blockquote>
+
+
+
     <main>
-
-
-
       <section id="key-facts">
+        <div class="container text-center">
         <h2>Key facts</h2>
         <ul>
           <li><strong>Born:</strong> Katherine Coleman, August 26, 1918, White Sulphur Springs, West Virginia, U.S.</li>
@@ -50,7 +60,7 @@
           <li><strong>Known for:</strong> Calculating the trajectories for many NASA missions.</li>
         </ul>
 
-
+      </div>
       </section>
 
 
@@ -105,7 +115,6 @@
 
     </main>
 
-
     <footer>
 
       <h3>Further Reading</h3>
@@ -115,7 +124,6 @@
       <a id="sources" href="https://en.wikipedia.org/wiki/Katherine_Johnson">Source material found at Wikipedia.</a>
 
     </footer>
-  </div> <!-- closing wrapper-->
 </body>
 
 </html>
