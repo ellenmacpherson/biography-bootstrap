@@ -57,12 +57,15 @@ small {
   background-color: #ECB47C;
   padding: 50px;
   margin: 0 auto;
+  border-top: 3px solid #333;
+
 }
 
 .blockquote-1 {
   margin: 0 auto;
   padding: 50px;
   background-color: #ECB47C;
+  border-top: 3px solid #333;
 }
 
 ul li {
