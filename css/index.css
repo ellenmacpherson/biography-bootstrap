@@ -38,7 +38,7 @@ body {
   }
 
 h1 {
-  font-family: 'Anonymous Pro', monospace;
+  font-family: 'Raleway', sans-serif;
   padding-top: 140px;
   margin: 0 auto;
   text-align: center;
@@ -52,7 +52,7 @@ small {
   font-family: 'Montserrat', sans-serif;
   padding-top: 20px;
   display: block;
-  font-size: 30px;
+  font-size: 42px;
   color: white;
   font-weight: 100;
   margin: 0 auto;
