@@ -68,7 +68,7 @@ small {
 
 .key-facts {
   background-color: #DB5461;
-  padding: 50px;
+  padding: 20px 0px;
   margin: 0 auto;
   color: white;
   font-size: 22px;
@@ -97,8 +97,14 @@ ul li {
   text-align: center;
   background-color: #333;
   color: white;
+  font-size: 22px;
+  padding: 30px 0px;
 }
 
 .bio-sections {
   padding: 0px 50px;
+}
+
+.long-bio p {
+  padding: 10px 0px;
 }
