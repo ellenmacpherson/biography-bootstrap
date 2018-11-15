@@ -3,6 +3,11 @@ body {
   margin: 0;
 }
 
+.row {
+  max-width: 100%;
+  margin: 0;
+}
+
 .navbar {
   border-bottom: 3px solid #FFDD4A;
   position: fixed;
