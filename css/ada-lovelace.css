@@ -1,4 +1,11 @@
+body {
+  background-color: #333;
+}
 
+.row {
+  max-width: 100%;
+  margin: 0;
+}
 .navbar {
   border-bottom: 3px solid #ECB47C;
   position: fixed;
@@ -6,7 +13,6 @@
   background-color: #333;
   color: white;
 }
-
 
 a.nav-link {
   padding: 20px 0;
@@ -34,7 +40,7 @@ a.nav-link {
   margin-bottom: 0;
 }
 
-  h1 {
+h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
     z-index: 10;
@@ -44,13 +50,20 @@ a.nav-link {
     margin: 160px auto;
   }
 
+h2 {
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px 0px;
+}
+
 small {
   display: block;
   font-size: 42px;
 }
 
 .container {
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .key-facts {
@@ -73,4 +86,19 @@ small {
 
 ul li {
   list-style: none;
+}
+
+.bio-header {
+  background-color: #333;
+  color: white;
+}
+
+.long-bio {
+  text-align: center;
+  background-color: #333;
+  color: white;
+}
+
+.bio-sections {
+  padding: 0px 50px;
 }
