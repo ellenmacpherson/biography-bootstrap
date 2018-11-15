@@ -68,7 +68,7 @@ small {
 
 .key-facts {
   background-color: #DB5461;
-  padding: 20px 0px;
+  padding: 10px 0px 20px 0px;
   margin: 0 auto;
   color: white;
   font-size: 22px;
@@ -107,4 +107,28 @@ ul li {
 
 .long-bio p {
   padding: 10px 0px;
+}
+
+footer {
+  background-color: #DB5461;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #F1EDEE;
+}
+
+footer a:hover {
+  color: #ECB47C;
+  text-decoration: none;
+}
+
+.sources {
+  padding: 20px 0px 10px 0px;
+  color: #F1EDEE;
+}
+
+.further-reading {
+  padding: 10px 0px 20px 0px;
 }
