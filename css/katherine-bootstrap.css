@@ -34,7 +34,7 @@
 h1 {
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
-  margin: 120px auto;
+  margin: 120px auto 0 auto;
   color: white;
   z-index: 10;
   font-size: 100px;
@@ -44,6 +44,12 @@ h1 {
 small {
   display: block;
   font-size: 42px;
+}
+
+#key-facts {
+  margin-top: 0;
+  background-color: #8C8871;
+  padding: 50px;
 }
 
 #key-facts ul li {
