@@ -3,6 +3,7 @@ body {
   width: 100%;
 }
 
+
 .row {
   max-width: 100%;
   margin: 0;
@@ -31,7 +32,7 @@ a.nav-link {
     bottom: 0;
     left: 0;
     content: "";
-    opacity: .6;
+    opacity: .5;
     background: #000;
     max-height: 600px;
     z-index: 1;
@@ -57,7 +58,7 @@ h1 {
   font-weight: 100;
   margin: 160px auto;
   text-align: center;
-  z-index: 10;
+  z-index: 9;
 }
 
 small {
@@ -133,18 +134,16 @@ small {
 
 footer {
   max-width: 100%;
-  background-color: #D1BEB0;
-  color: #002642;
-
-
+  background-color: rgb(132, 0, 50);
+  color: #e5dada;
 }
 
 footer a {
-  color: #333;
+  color: lightblue;
 }
 
 footer a:hover {
-  color: rgb(132, 0, 50);
+  color: #333;
   text-decoration: none;
 }
 
