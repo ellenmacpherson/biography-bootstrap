@@ -1,19 +1,28 @@
 body {
-width: 100%;
-margin: 0;
+  width: 100%;
+  margin: 0;
 }
 
-.carousel {
-border: 30x solid red;
-z-index: 50;
-position: relative;
-display: block;
-color: white;
+#intro p {
+  font-size: 28px;
+  width: 70%;
+  padding: 50px;
+  font-weight: bolder;
+  font-family: 'Helvetica', sans-serif;
+  color: #333;
+  text-align: center;
+  z-index: 60;
+  margin: 0 auto;
 }
 
 .row {
   max-width: 100%;
   margin: 0;
+}
+
+main {
+  background-color: #FFDD4A;
+  padding-bottom: 100px;
 }
 
 .navbar {
@@ -39,17 +48,17 @@ color: white;
 }
 
 .jumbotron .row:before {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    content: "";
-    opacity: .75;
-    background: #000;
-    max-height: 600px;
-    z-index: 1;
-  }
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  opacity: .75;
+  background: #000;
+  max-height: 600px;
+  z-index: 1;
+}
 
 h1 {
   font-family: 'Raleway', sans-serif;
@@ -98,52 +107,26 @@ small {
   }
 
 
-#intro-paragraph {
-  border-top: 3px solid #333;
-  background-color: #FFDD4A;
-}
+  .footer {
+    margin: 0 auto;
+    background-color: #333;
+    color: white;
+  }
 
-#intro-paragraph p {
-  font-size: 28px;
-  width: 70%;
+.footer p {
+  margin: 0 auto;
   padding: 50px;
-  font-weight: bolder;
-  font-family: 'Helvetica', sans-serif;
-  color: #333;
-}
-
-
-.hero-images {
-  background-color: #FFDD4A;
-  padding: 40px 0 100px 0;
-  margin: 0 auto;
-}
-
-.name-links {
-  margin: 10px auto;
-  text-align: center;
-  display: block;
-  /*centres links under images*/
-}
-
-a.name-links {
-  text-decoration: none;
-  font-size: 22px;
-  color: #333;
-}
-
-a.name-links:hover {
-  color: #EC368D;
-}
-
-footer {
-  margin: 0 auto;
-  background-color: #333;
   color: white;
+  position: relative;
 }
 
-p {
-  text-align: center;
-  padding: 50px 0;
-  margin: 0 auto;
-}
+  .carousel {
+    z-index: 50;
+    position: relative;
+    display: block;
+    color: white;
+    max-height: 600px;
+    padding: 50px 0px;
+    position: relative;
+
+  }
