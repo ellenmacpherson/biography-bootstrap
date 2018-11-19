@@ -1,6 +1,11 @@
 body {
   width: 100%;
   margin: 0;
+  background-color: #333;
+}
+
+#intro {
+  display: block;
 }
 
 #intro p {
@@ -81,6 +86,8 @@ small {
   margin: 0 auto;
 }
 
+/*START OF MEDIA QUERIES*/
+
 @media screen and (max-width: 800px) {
   .jumbotron {
     height: 300px;
@@ -105,27 +112,23 @@ small {
     margin: 10px;
     text-align: center;
   }
+}
 
+/*END OF MEDIA QUERIES*/
 
-  .footer {
-    margin: 0 auto;
-    background-color: #333;
-    color: white;
-  }
-
-.footer p {
-  margin: 0 auto;
-  padding: 50px;
+  footer {
+  font-size: 20px;
+  background-color: #333;
   color: white;
-  position: relative;
+  padding: 50px 0px;
+  display: block;
+  z-index: 60;
+  text-align: center;
+  margin: 0 auto;
 }
 
   .carousel {
-    z-index: 50;
-    position: relative;
-    display: block;
     color: white;
-    max-height: 600px;
     padding: 50px 0px;
     position: relative;
 
